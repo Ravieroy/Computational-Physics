@@ -87,3 +87,11 @@ These are miscellaneous codes written just for fun and learning
 | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
 | [Collatz_conjecture](https://github.com/Ravieroy/Computational-Physics/blob/main/PYTHON_CODES/Misc/Collatz_conjecture.py) | Implementation of Collatz Conjecture |
 
+#### VPython Codes
+These are VPython codes which are great for learning basic stuffs and solve basic stuffs.  Use [Glowscript](https://glowscript.org/) or [Trinket](https://trinket.io/) to run these type of programs. Just make a free account there and run VPython codes there.
+
+| Name                                                                                                                                                                                                          | Description                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| [Projectile_Motion_basic](https://github.com/Ravieroy/Computational-Physics/blob/main/PYTHON_CODES/VPython/Projectile_Motion_basic.py)                                                                        | Basic implementation of Projectile Motion |
+| [Projectile_Motion_mult_balls](https://github.com/Ravieroy/Computational-Physics/blob/main/PYTHON_CODES/VPython/Projectile_Motion_mult_balls.py "Projectile_Motion_mult_balls.py")                            | Projectile motion with multiple balls     |
+| [Projectile_Motion_with_air_Resistance](https://github.com/Ravieroy/Computational-Physics/blob/main/PYTHON_CODES/VPython/Projectile_Motion_with_air_Resistance.py "Projectile_Motion_with_air_Resistance.py") | Projectile Motion with air resistance                                          |
