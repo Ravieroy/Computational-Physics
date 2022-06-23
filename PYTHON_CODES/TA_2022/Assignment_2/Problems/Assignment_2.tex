@@ -1,0 +1,86 @@
+\documentclass[11pt]{article}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage[top=0.8in,bottom=0.8in,left=0.8in,right=0.8in]{geometry}
+\usepackage{amsmath, amsthm}
+\usepackage{xcolor}
+\usepackage{nicefrac}
+\makeatletter
+\setlength{\@fptop}{-20pt}
+\makeatother
+
+
+
+\begin{document}
+
+\begin{center}
+	\textbf{Assignment 2: Computational} \\
+\textcolor{red}{Due Date: 06/03/2022(Sunday)}
+\end{center}
+
+
+\begin{flushleft}
+		Problem 1: \textbf{Hydrogen Atom-1:} Plot the probability densities for the radial wavefunctions of Hydrogen atom corresponding to three lowest states (1s,2s and 3s). You can use the exact results for the normalized wavefunctions given in any Quantum Mechanics textbook(eg. Griffiths). The wavefunction for 1s is given below as an example.
+		
+		\begin{equation*}
+			\frac{1}{\sqrt{\pi}a_0^{3/2}} e^ {-\frac{r}{a_0}}
+		\end{equation*}
+	
+	
+	Problem 2: \textbf{Hydrogen Atom-2:} The Schr\"{o}dinger equation for Hydrogen atom is, 
+	\begin{equation*}
+		(-\frac{\hbar^2}{2m}\nabla^2-\frac{Z e^2}{4\pi\varepsilon_0 r})\psi(\vec{r})=E \psi(\vec{r})
+		\end{equation*}
+	Using, 
+	\begin{eqnarray*}
+		x = \frac{r}{r_B}\\
+		\varepsilon = \frac{E}{E_0}
+	\end{eqnarray*}
+	where
+	\begin{eqnarray*}\label{eq: H-eqn}
+		&& r_B = \frac{4\pi\varepsilon_0 \hbar^2}{m e^2} \approx 0.529 A\\
+		&& E_0 = \frac{\hbar^2}{2 m r_B^2} == Ry \approx 13.6 eV
+	\end{eqnarray*}
+We can obtain the following differential equation,
+
+\begin{eqnarray}
+	u''(x)-
+	\left(\frac{l(l+1)}{x^2}-\frac{2Z}{x}-\varepsilon\right)u(x)=0
+\end{eqnarray}
+
+Consider the following boundary equation, 
+
+\begin{eqnarray*}
+	&&u(0) = 0 \rightarrow \psi(0)<\infty\\
+	&&u(\infty)=0 \rightarrow \int |\psi(r)|^2 r^2 dr \propto \int u^2(r)dr < \infty
+\end{eqnarray*}
+
+
+\end{flushleft}
+
+\begin{enumerate}
+	\item Using Scipy we want to integrate eqn.(\ref{eq: H-eqn}). Show that if you use a linear mesh with forward integration, the variation with respect to R is unstable. (hint: You will see that the graph starts diverging for higher values of R )
+	
+	\item Using the similar program as above, invert the mesh for R(i.e start integrating from large values to small) and show that the variation is now stable(i.e The graph decays to zero for higher values of R)
+\end{enumerate}
+
+
+\newpage
+	Problem 3: \textbf{Simple(charged) Harmonic Oscillator(SHO):} Consider a one dimensional harmonic oscillator in a constant electric field $\vec{E}$ with charge on the oscillator q oscillating on the x -axis. The Hamiltonian is given by
+	
+	\begin{equation*}
+		\hat{H} = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} + \frac12 m\omega^2x^2 -qEx
+	\end{equation*}
+
+\begin{enumerate}
+	\item Plot the first three eigenfunctions.(hint: This perturbed oscillator has an analogous form to the original unperturbed SHO).
+	
+	\item Show by plotting that the perturbed energies of the charged simple harmonic oscillator are shifted downward by a constant term. 
+\end{enumerate}
+
+
+
+
+
+
+\end{document}

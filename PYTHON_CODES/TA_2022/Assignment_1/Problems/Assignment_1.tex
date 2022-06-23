@@ -1,0 +1,59 @@
+\documentclass[11pt]{article}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage[top=0.8in,bottom=0.8in,left=0.8in,right=0.8in]{geometry}
+\usepackage{amsmath, amsthm}
+\usepackage{xcolor}
+\usepackage{nicefrac}
+\makeatletter
+\setlength{\@fptop}{-20pt}
+\makeatother
+
+
+
+\begin{document}
+
+\begin{center}
+	\textbf{Assignment 1: Computational} \\
+\textcolor{red}{Due Date: 06/02/2022(Sunday)}
+\end{center}
+
+
+\begin{flushleft}
+	Problem 1: \textbf{Numerical Differentiation:} Consider the function $f(x) = x^2$ and,
+	\begin{enumerate}
+		\item Plot the function f(x)
+		\item Find the derivative numerically and plot the result(\nicefrac{df}{dx}) alongside the analytical solution.(\textit{While numpy is allowed, Do not use special packages to do the numerical derivative})
+	\end{enumerate}
+\end{flushleft}
+
+
+\begin{flushleft}
+	Problem 2: \textbf{Numerical integration:} Given $I  = \int_{0}^{\pi} \sin(x) dx $, Define a function to calculate the integral by Simpsons's \nicefrac{1}{3} Rule and compare with the analytical result.
+\end{flushleft}
+
+\begin{flushleft}
+	Problem 3: \textbf{Boundary Value Problem:} Solve the following boundary value problem(BVP).(Hint: shooting method). 
+\end{flushleft}
+\begin{equation*}
+	y'' = -y + \frac{2({y'}^2)}{y}, \\ -1 < x < 1
+\end{equation*}
+	
+	
+\begin{flushleft}
+	Problem 4:\textbf{Infinite Square Well:} Solve the Schr\"{o}dinger equation for Infinite Square Well and plot the ground state and two excited states of energy. Also compare the numerical result with the analytical result. 
+\end{flushleft}
+\begin{equation*}
+	V(x)={\begin{cases}\infty,& x <0 \\ 0,& 0 \le x \le a \\\infty ,&x > a\end{cases}}
+\end{equation*}
+
+\begin{flushleft}
+Problem 5: \textbf{Quantum Harmonic Oscillator:} Solve the Schr\"{o}dinger equation for Quantum Harmonic Oscillator in 1D and plot the eigenfunctions for n = 0,1,2. Also compare the numerical result with the analytical result. 
+\end{flushleft}
+\begin{equation*}
+V(x)= \frac12 m\omega^2x^2
+\end{equation*}
+
+
+
+\end{document}
