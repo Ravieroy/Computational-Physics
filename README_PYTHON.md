@@ -78,9 +78,6 @@ These are the solution to the problems set during my TA in 2022 for the class Ma
 ## Miscellaneous 
 These are miscellaneous codes written just for fun and learning 
 
-[Back to top](#Table-of-Contents)
-
-
 | Name                                                                                                                      | Description                      |
 | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
 | [Collatz_conjecture](https://github.com/Ravieroy/Computational-Physics/blob/main/PYTHON_CODES/Misc/Collatz_conjecture.py) | Implementation of Collatz Conjecture |
@@ -88,3 +85,4 @@ These are miscellaneous codes written just for fun and learning
 [^1]:   Requires basic understanding of Python and Physics 
 [^2]: Requires basic understanding of Python and familiarity with the specific topic in Physics
 
+[Back to top](#List-of-Python-codes)
