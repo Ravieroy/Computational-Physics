@@ -1,10 +1,10 @@
-# README for Python codes
----
+# List of Python codes
 ## Table of Contents 
-[[README_PYTHON#Intermediate stuffs 2]]
-[[README_PYTHON#Basic Stuffs 1]]
-[[README_PYTHON#Teaching Assistant-2022]]
-[[README_PYTHON#Miscellaneous]]
+[Intermediate Stuffs](Intermediate-stuffs)
+[Basic Stuffs](Basic-stuffs)
+[VPython Codes](VPython-Codes)
+[Teaching Assistant: 2022](Teaching-Assistant-2022)
+[Miscellaneous](Miscellaneous)
 
 ## Intermediate stuffs[^1]
 
@@ -82,3 +82,5 @@ These are miscellaneous codes written just for fun and learning
 | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
 | [Collatz_conjecture](https://github.com/Ravieroy/Computational-Physics/blob/main/PYTHON_CODES/Misc/Collatz_conjecture.py) | Implementation of Collatz Conjecture |
 
+[^1]:   Requires basic understanding of Python and Physics 
+[^2]: Requires basic understanding of Python and familiarity with the specific topic in Physics
