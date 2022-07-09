@@ -111,11 +111,19 @@ These are VPython codes which are great for learning basic stuffs and solve basi
 | [Projectile_Motion_mult_balls](https://github.com/Ravieroy/Computational-Physics/blob/main/PYTHON_CODES/VPython/Projectile_Motion_mult_balls.py "Projectile_Motion_mult_balls.py")                            | Projectile motion with multiple balls     |
 | [Projectile_Motion_with_air_Resistance](https://github.com/Ravieroy/Computational-Physics/blob/main/PYTHON_CODES/VPython/Projectile_Motion_with_air_Resistance.py "Projectile_Motion_with_air_Resistance.py") | Projectile Motion with air resistance                                          |
 
-## Mathematica Codes
+## Mathematica Codes[^1]
 
-| Name               | Description                 |
-| ------------------ | --------------------------- |
-| [Berry_Graphene.nb](https://github.com/Ravieroy/Computational-Physics/blob/main/MATHEMATICA_CODES/Berry_Graphene.nb "Berry_Graphene.nb")     | Berry Curvature of Graphene |
-| [Berry_Graphene.pdf](https://github.com/Ravieroy/Computational-Physics/blob/main/MATHEMATICA_CODES/Berry_Graphene.pdf "Berry_Graphene.pdf") | PDF format of notebook                            |
+| Name                                                                                                                                                                      | Description                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| [Berry_Graphene.nb](https://github.com/Ravieroy/Computational-Physics/blob/main/MATHEMATICA_CODES/Berry_Graphene.nb "Berry_Graphene.nb")                                  | Berry Curvature of Graphene      |
+| [Berry_Graphene.pdf](https://github.com/Ravieroy/Computational-Physics/blob/main/MATHEMATICA_CODES/Berry_Graphene.pdf "Berry_Graphene.pdf")                               | PDF format of notebook           |
+| [SEIRS.nb](https://github.com/Ravieroy/Computational-Physics/blob/main/MATHEMATICA_CODES/SEIRS.nb "SEIRS.nb")                                                             | SEIRS Model of Epidemiology      |
+| [Epidemiology-Introduction.nb](https://github.com/Ravieroy/Computational-Physics/blob/main/MATHEMATICA_CODES/Epidemiology-Introduction.nb "Epidemiology-Introduction.nb") | Introduction to Epidemiology[^2] |
+| [Epidemiology-Application.nb](https://github.com/Ravieroy/Computational-Physics/blob/main/MATHEMATICA_CODES/Epidemiology-Application.nb "Epidemiology-Application.nb")    | More advanced application to different models[^2]                                 |
 
-[Back to top](# Computational Physics Codes)
+[^1]: Requires decent understanding of Mathematica and slightly deeper knowledge of the topic at hand. 
+[^2]: These codes were not written by me. These are codes from an online course I attended on Epidemiology. 
+
+
+
+[Back to top](#Computational-Physics-Codes)
