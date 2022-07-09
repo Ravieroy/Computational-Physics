@@ -1,10 +1,10 @@
 # List of Python codes
 ## Table of Contents 
-[Intermediate Stuffs](Intermediate-stuffs)
-[Basic Stuffs](Basic-stuffs)
-[VPython Codes](VPython-Codes)
-[Teaching Assistant: 2022](Teaching-Assistant-2022)
-[Miscellaneous](Miscellaneous)
+- [Intermediate Stuffs](Intermediate-stuffs)
+- [Basic Stuffs](Basic-stuffs)
+- [VPython Codes](VPython-Codes)
+- [Teaching Assistant: 2022](Teaching-Assistant-2022)
+- [Miscellaneous](Miscellaneous)
 
 ## Intermediate stuffs[^1]
 
