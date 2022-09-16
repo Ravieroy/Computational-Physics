@@ -10,7 +10,7 @@
 | [SEIRS.nb](https://github.com/Ravieroy/Computational-Physics/blob/main/MATHEMATICA_CODES/SEIRS.nb "SEIRS.nb")                                                             | SEIRS Model of Epidemiology                       |
 | [Epidemiology-Introduction.nb](https://github.com/Ravieroy/Computational-Physics/blob/main/MATHEMATICA_CODES/Epidemiology-Introduction.nb "Epidemiology-Introduction.nb") | Introduction to Epidemiology[^2]                  |
 | [Epidemiology-Application.nb](https://github.com/Ravieroy/Computational-Physics/blob/main/MATHEMATICA_CODES/Epidemiology-Application.nb "Epidemiology-Application.nb")    | More advanced application to different models[^2] |
-| [Graphene-along-HSP.nb]((https://github.com/Ravieroy/Computational-Physics/blob/main/MATHEMATICA_CODES/Graphene-along-HSP.nb "Graphene-along-HSP.nb"))                                                                                                                                                     | Graphene BS along the HSP                         |
+| [Graphene-along-HSP.nb](https://github.com/Ravieroy/Computational-Physics/blob/main/MATHEMATICA_CODES/Graphene-along-HSP.nb "Graphene-along-HSP.nb"))                                                                                                                                                     | Graphene BS along the HSP                         |
 |                                                                                                                                                                           |                                                   |
 
 [^1]: Requires decent understanding of Mathematica and slightly deeper knowledge of the topic at hand. 
